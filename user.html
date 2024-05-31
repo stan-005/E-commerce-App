@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>StanLux Watch Designs</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Admin UI</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products-list" class="productList">
+      <!-- Product details will be dynamically added here -->
+    </section>
+
+    <div id="cart" style="display: none;">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 StanLux Watch Store</p>
+  </footer>
+
+  <script src="./dist/app.js" type="module"></script>
+  <script src="./user.js" type="module"></script>
+</body>
+</html>
